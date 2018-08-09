@@ -1,37 +1,47 @@
-<div class="columns">
-  <div class="column">
-    <div class="field">
-      <label class="label">Firstname</label>
-      <div class="control">
-        <input type="text" class="input" [ngModel]="user.firstname" />
+<div>
+    <div class="columns">
+      <div class="column">
+        <div class="field">
+          <label class="label">Firstname</label>
+          <div class="control">
+            <input type="text" class="input" [(ngModel)]="user.firstname" />
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="field">
+          <label class="label">Lastname</label>
+          <div class="control">
+            <input type="text" class="input" [(ngModel)]="user.lastname" />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="field">
-      <label class="label">Lastname</label>
-      <div class="control">
-        <input type="text" class="input" [ngModel]="user.lastname" />
+    <div class="columns">
+      <div class="column">
+        <div class="field">
+          <label class="label">Username</label>
+          <div class="control">
+            <input type="text" class="input" [(ngModel)]="user.username" />
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control">
+            <input type="password" class="input" [(ngModel)]="user.password" />
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="field">
+          <label class="label">Confirm Password</label>
+          <div class="control">
+            <input type="password" class="input" [(ngModel)]="confirmPassword" />
+          </div>
+        </div>
       </div>
     </div>
+    <button class="button is-primary" (click)="register()">Register</button>
   </div>
-</div>
-<div class="columns">
-  <div class="column">
-    <div class="field">
-      <label class="label">Username</label>
-      <div class="control">
-        <input type="text" class="input" [ngModel]="user.username" />
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="field">
-      <label class="label">Password</label>
-      <div class="control">
-        <input type="text" class="input" [ngModel]="user.password" />
-      </div>
-    </div>
-  </div>
-</div>
-<button class="button is-primary" (click)="register()">Register</button>

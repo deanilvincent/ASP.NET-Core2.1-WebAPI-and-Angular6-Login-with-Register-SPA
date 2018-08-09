@@ -13,7 +13,14 @@
   <div class="navbar-menu">
     <div class="navbar-end">
       <div class="navbar-item">
-        <div class="field is-grouped">
+        <div class="field is-grouped" *ngIf="loggedIn()">
+          <p class="control">
+            <a class="button" (click)="logout()">
+              LOGOUT
+            </a>
+          </p>
+        </div>
+        <div class="field is-grouped" *ngIf="!loggedIn()">
           <p class="control">
             <a class="button is-info" [routerLink]="['/login']">
               LOGIN
