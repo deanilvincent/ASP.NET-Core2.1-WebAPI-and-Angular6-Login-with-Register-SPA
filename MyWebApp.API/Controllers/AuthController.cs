@@ -29,7 +29,10 @@ namespace MyWebApp.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
-            return Ok(await jwtTokenGeneratorService.GenerateJwtTokenString(userForLoginDto.Username, userForLoginDto.Password));
+            return Ok(new
+            {
+                token = await jwtTokenGeneratorService.GenerateJwtTokenString(userForLoginDto.Username, userForLoginDto.Password)
+            });
         }
 
         [HttpPost("register")]

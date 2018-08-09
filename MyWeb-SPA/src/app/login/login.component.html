@@ -1,0 +1,23 @@
+<div class="columns">
+  <div class="column">
+    <div class="field">
+      <label class="label">Username</label>
+      <div class="control">
+        <input type="text" class="input" name="username" [(ngModel)]="user.username" />
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="field">
+      <label class="label">Password</label>
+      <div class="control">
+        <input type="password" class="input" [(ngModel)]="user.password" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="columns">
+  <div class="column">
+    <button type="button" class="button is-primary" (click)="login()">Login</button>
+  </div>
+</div>
