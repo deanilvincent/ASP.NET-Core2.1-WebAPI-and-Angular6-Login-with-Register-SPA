@@ -1,7 +1,6 @@
 # MyWebApp.API (ASP.NET Core 2.1)
 
-[Docs]
-(https://github.com/aspnet/Home)
+[Docs](https://github.com/aspnet/Home)
 
 # MyWeb-SPA (Angular 6)
 
