@@ -1,0 +1,14 @@
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\bin\Debug\netcoreapp2.1\MyWebApp.API.deps.json
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\bin\Debug\netcoreapp2.1\MyWebApp.API.runtimeconfig.json
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\bin\Debug\netcoreapp2.1\MyWebApp.API.runtimeconfig.dev.json
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\bin\Debug\netcoreapp2.1\MyWebApp.API.dll
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\bin\Debug\netcoreapp2.1\MyWebApp.API.pdb
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.csprojAssemblyReference.cache
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.csproj.CoreCompileInputs.cache
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.RazorAssemblyInfo.cache
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.RazorAssemblyInfo.cs
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.AssemblyInfoInputs.cache
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.AssemblyInfo.cs
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.RazorTargetAssemblyInfo.cache
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.dll
+E:\VS2017\Repos-2\ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA\MyWebApp.API\obj\Debug\netcoreapp2.1\MyWebApp.API.pdb
