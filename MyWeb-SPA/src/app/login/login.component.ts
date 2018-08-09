@@ -21,9 +21,4 @@ export class LoginComponent implements OnInit {
       console.log('Something went wrong');
     });
   }
-
-  logout() {
-    localStorage.removeItem('token');
-    alert('Successfully logout');
-  }
 }

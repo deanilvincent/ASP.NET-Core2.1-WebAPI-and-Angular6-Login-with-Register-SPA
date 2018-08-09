@@ -8,6 +8,7 @@ import { AuthService } from '../_services/auth.service';
 })
 export class RegisterComponent implements OnInit {
   user: any = {};
+  confirmPassword: string;
 
   constructor(private authService: AuthService) { }
 
@@ -15,11 +16,15 @@ export class RegisterComponent implements OnInit {
   }
 
   register() {
-    this.authService.register(this.user).subscribe(() => {
-      alert('Successfully registered');
-    }, error => {
-      console.log(error);
-    });
+    if (this.user.password !== this.confirmPassword) {
+      alert('Password does not match');
+    } else {
+      this.authService.register(this.user).subscribe(() => {
+        alert('Successfully registered');
+      }, error => {
+        console.log(error);
+      });
+    }
   }
 
 }

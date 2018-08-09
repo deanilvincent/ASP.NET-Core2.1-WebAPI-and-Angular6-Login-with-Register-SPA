@@ -29,4 +29,12 @@ export class AuthService {
   register(user: any) {
     return this.http.post(`${this.apiUrl}auth/register`, user);
   }
+
+  loggedIn() {
+    this.decodedToken = this.jwtHelper.decodeToken(localStorage.getItem('token'));
+    if (this.decodedToken) {
+      return true;
+    }
+    return false;
+  }
 }
