@@ -1,0 +1,31 @@
+<nav class="navbar is-transparent" style="border-bottom: solid #CCD1D9">
+  <div class="navbar-brand">
+    <a class="navbar-item" [routerLink]="['/home']">
+      LOGO
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-info" [routerLink]="['/login']">
+              LOGIN
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-primary" [routerLink]="['/register']">
+              <span>REGISTER</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
