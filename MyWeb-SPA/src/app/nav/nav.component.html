@@ -15,7 +15,11 @@
       <div class="navbar-item">
         <div class="field is-grouped" *ngIf="loggedIn()">
           <p class="control">
-            <a class="button" (click)="logout()">
+            <a class="button is-info" [routerLink]="['/user-account']">
+              Account
+            </a>
+            &nbsp;
+            <a class="button is-danger" (click)="logout()">
               LOGOUT
             </a>
           </p>
