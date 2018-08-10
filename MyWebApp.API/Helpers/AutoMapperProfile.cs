@@ -9,6 +9,8 @@ namespace MyWebApp.API.Helpers
         public AutoMapperProfile()
         {
             CreateMap<UserForRegisterDto, User>();
+
+            CreateMap<UserToReturnDto, User>();
         }
     }
 }

@@ -8,7 +8,7 @@
 
 [Microsoft.AspNetCore.App](https://www.nuget.org/packages/Microsoft.AspNetCore.App/) v2.1.2
 
-- For Angular app, it's important to install this package using npm.
+- For this Angular login app, it's important to install this package using npm.
 
 [@auth0/angular-jwt](https://github.com/auth0/angular2-jwt) v2.0.0
 

@@ -42,7 +42,7 @@ namespace MyWebApp.API
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => options.TokenValidationParameters = new TokenValidationParameters
             {
                 ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:token").Value)),
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:Token").Value)),
                 ValidateIssuer = false,
                 ValidateAudience = false
             });
@@ -52,6 +52,7 @@ namespace MyWebApp.API
 
             // repositories
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             // services
             services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
@@ -73,7 +74,7 @@ namespace MyWebApp.API
 
             // use cors
             app.UseCors(o => o.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-
+            app.UseAuthentication();
             app.UseMvc();
         }
     }
