@@ -1,6 +1,20 @@
+# Project Installed Packages Overview
+
+- ASP.NET Core Web API Installed Packages
+
+[System.IdentityModel.Tokens.Jwt](https://www.nuget.org/packages/System.IdentityModel.Tokens.Jwt/) v5.2.4
+
+[AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/) v5.0.1
+
+[Microsoft.AspNetCore.App](https://www.nuget.org/packages/Microsoft.AspNetCore.App/) v2.1.2
+
+- For Angular app, it's important to install this package using npm.
+
+[@auth0/angular-jwt](https://github.com/auth0/angular2-jwt) v2.0.0
+
 # MyWebApp.API (ASP.NET Core 2.1)
 
-[Docs](https://github.com/aspnet/Home)
+[ASP.NET Core Github Doc](https://github.com/aspnet/Home)
 
 # MyWeb-SPA (Angular 6)
 
