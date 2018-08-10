@@ -5,13 +5,20 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { AuthService } from './_services/auth.service';
 import { LoginComponent } from './login/login.component';
-import { HttpClientModule } from '../../node_modules/@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { UserAccountComponent } from './user-account/user-account.component';
 import { NavComponent } from './nav/nav.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
-import { RouterModule } from '../../node_modules/@angular/router';
+import { RouterModule } from '@angular/router';
 import { appRoutes } from './route';
+import { UserService } from './_services/user.service';
+import { JwtModule } from '../../node_modules/@auth0/angular-jwt';
+import { AuthGuard } from './_guards/auth.guard';
+
+export function tokenGetter() {
+  return localStorage.getItem('token');
+}
 
 @NgModule({
   declarations: [
@@ -20,17 +27,25 @@ import { appRoutes } from './route';
     UserAccountComponent,
     NavComponent,
     RegisterComponent,
-    HomeComponent,
     HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: tokenGetter,
+        whitelistedDomains: ['localhost:5001'],
+        blacklistedRoutes: ['localhost:5001/api/auth']
+      }
+    }),
   ],
   providers: [
-    AuthService
+    AuthService,
+    UserService,
+    AuthGuard
   ],
   bootstrap: [
     AppComponent
