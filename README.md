@@ -1,4 +1,8 @@
-# Project Installed Packages Overview
+# ASP.NET-Core2.1 WebAPI and Angular6 Login with Register SPA
+
+Creating basic Login and Register for Angular that connects to ASP.NET Core Web API that uses JWT (Json Web Tokens) as the authentication security. 
+
+## Project Installed Packages Overview
 
 - ASP.NET Core Web API Installed Packages
 
@@ -12,11 +16,11 @@
 
 [@auth0/angular-jwt](https://github.com/auth0/angular2-jwt) v2.0.0
 
-# MyWebApp.API (ASP.NET Core 2.1)
+## MyWebApp.API (ASP.NET Core 2.1)
 
 [ASP.NET Core Github Doc](https://github.com/aspnet/Home)
 
-# MyWeb-SPA (Angular 6)
+## MyWeb-SPA (Angular 6)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
@@ -43,3 +47,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Clone this project: `https://github.com/deanilvincent/ASP.NET-Core2.1-WebAPI-and-Angular6-Login-with-Register-SPA.git`
