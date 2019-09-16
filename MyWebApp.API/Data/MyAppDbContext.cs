@@ -12,7 +12,7 @@ namespace MyWebApp.API.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=myserver0001.database.windows.net; user id=myappserver; password=Pr0xxxy@!#***;Database=MyAppSampDb; Integrated Security=False");
+            optionsBuilder.UseSqlServer(@"Server=###; user id=###; password=###;Database=MyAppSampDb; Integrated Security=False");
         }
 
         public DbSet<User> Users { get; set; }
